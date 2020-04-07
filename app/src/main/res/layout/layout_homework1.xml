@@ -4,29 +4,43 @@
     android:orientation="vertical"
     android:layout_height="match_parent">
 
+    <TextView
+        android:id="@+id/homework1_tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
     <Button
-        android:layout_width="wrap_content"
-        android:text="作业一"
-        android:id="@+id/homework_btn1"
-        android:layout_height="wrap_content" />
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+(内部匿名)" />
+
     <Button
-        android:layout_width="wrap_content"
-        android:text="作业二"
-        android:id="@+id/homework_btn2"
-        android:layout_height="wrap_content" />
+        android:id="@+id/subtract"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-(内部类）" />
+
     <Button
-        android:layout_width="wrap_content"
-        android:text="作业三"
-        android:id="@+id/homework_btn3"
-        android:layout_height="wrap_content" />
+        android:id="@+id/multiply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*(直接实现)" />
+
     <Button
-        android:layout_width="wrap_content"
-        android:text="作业四"
-        android:id="@+id/homework_btn4"
-        android:layout_height="wrap_content" />
-    <Button
-        android:layout_width="wrap_content"
-        android:text="作业五"
-        android:id="@+id/homework_btn5"
-        android:layout_height="wrap_content" />
+        android:id="@+id/divided"
+        android:onClick="chu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="/(XML调用)" />
+    <EditText
+        android:layout_width="231dp"
+        android:id="@+id/num1"
+        android:layout_height="50dp" />
+    <EditText
+        android:layout_width="231dp"
+        android:id="@+id/num2"
+        android:layout_height="50dp" />
 </LinearLayout>
+
